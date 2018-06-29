@@ -1,0 +1,291 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32f107xx
+LIBS:lt8609
+LIBS:dev-board-stm32f107-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LT8609 U100
+U 1 1 5B330245
+P 5500 3350
+F 0 "U100" H 5700 2900 60  0000 C CNN
+F 1 "LT8609" H 5500 3800 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-10-1EP_3x3mm_Pitch0.5mm" H 5500 3800 60  0001 C CNN
+F 3 "" H 5500 3800 60  0001 C CNN
+	1    5500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C100
+U 1 1 5B3303D0
+P 4700 3150
+F 0 "C100" H 4710 3220 50  0000 L CNN
+F 1 "4.7uF" H 4710 3070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4700 3150 50  0001 C CNN
+F 3 "" H 4700 3150 50  0001 C CNN
+	1    4700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B33040E
+P 4700 3250
+F 0 "#PWR?" H 4700 3000 50  0001 C CNN
+F 1 "GND" H 4700 3100 50  0000 C CNN
+F 2 "" H 4700 3250 50  0001 C CNN
+F 3 "" H 4700 3250 50  0001 C CNN
+	1    4700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C101
+U 1 1 5B330498
+P 4600 3600
+F 0 "C101" H 4400 3700 50  0000 L CNN
+F 1 "1uF" H 4450 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4600 3600 50  0001 C CNN
+F 3 "" H 4600 3600 50  0001 C CNN
+	1    4600 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C102
+U 1 1 5B3304FE
+P 4750 3700
+F 0 "C102" H 4650 3800 50  0000 L CNN
+F 1 "10nF" H 4650 3650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4750 3700 50  0001 C CNN
+F 3 "" H 4750 3700 50  0001 C CNN
+	1    4750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R100
+U 1 1 5B330539
+P 4900 3800
+F 0 "R100" H 4930 3820 50  0000 L CNN
+F 1 "18.2k" H 4930 3760 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 4900 3800 50  0001 C CNN
+F 3 "" H 4900 3800 50  0001 C CNN
+	1    4900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B330A26
+P 5500 4000
+F 0 "#PWR?" H 5500 3750 50  0001 C CNN
+F 1 "GND" H 5500 3850 50  0000 C CNN
+F 2 "" H 5500 4000 50  0001 C CNN
+F 3 "" H 5500 4000 50  0001 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R102
+U 1 1 5B330CE7
+P 6050 3750
+F 0 "R102" H 6080 3770 50  0000 L CNN
+F 1 "309k" H 6080 3710 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 6050 3750 50  0001 C CNN
+F 3 "" H 6050 3750 50  0001 C CNN
+	1    6050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R103
+U 1 1 5B330D2A
+P 6400 3750
+F 0 "R103" H 6430 3770 50  0000 L CNN
+F 1 "1M" H 6430 3710 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 6400 3750 50  0001 C CNN
+F 3 "" H 6400 3750 50  0001 C CNN
+	1    6400 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C104
+U 1 1 5B330DA5
+P 6400 3600
+F 0 "C104" H 6410 3670 50  0000 L CNN
+F 1 "10pF" H 6410 3520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6400 3600 50  0001 C CNN
+F 3 "" H 6400 3600 50  0001 C CNN
+	1    6400 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C105
+U 1 1 5B330DFE
+P 6700 3800
+F 0 "C105" H 6710 3870 50  0000 L CNN
+F 1 "22uF" H 6710 3720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6700 3800 50  0001 C CNN
+F 3 "" H 6700 3800 50  0001 C CNN
+	1    6700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3000 5000 3000
+Wire Wire Line
+	5000 3100 4900 3100
+Wire Wire Line
+	4900 3100 4900 3000
+Connection ~ 4900 3000
+Wire Wire Line
+	4700 3050 4700 3000
+Connection ~ 4700 3000
+Wire Wire Line
+	5000 3400 4600 3400
+Wire Wire Line
+	4600 3400 4600 3500
+Wire Wire Line
+	5000 3500 4750 3500
+Wire Wire Line
+	4750 3500 4750 3600
+Wire Wire Line
+	5000 3600 4900 3600
+Wire Wire Line
+	4900 3600 4900 3700
+Wire Wire Line
+	4600 3700 4600 4000
+Wire Wire Line
+	4600 4000 6700 4000
+Wire Wire Line
+	5500 4000 5500 3950
+Wire Wire Line
+	4900 3900 4900 4000
+Connection ~ 4900 4000
+Wire Wire Line
+	4750 3800 4750 4000
+Connection ~ 4750 4000
+Wire Wire Line
+	6000 3600 6300 3600
+Wire Wire Line
+	6050 3650 6050 3600
+Connection ~ 6050 3600
+Wire Wire Line
+	6300 3750 6250 3750
+Wire Wire Line
+	6250 3750 6250 3600
+Connection ~ 6250 3600
+Wire Wire Line
+	6500 3600 6550 3600
+Wire Wire Line
+	6550 3600 6550 3750
+Wire Wire Line
+	6550 3750 6500 3750
+Wire Wire Line
+	6700 3200 6700 3700
+Wire Wire Line
+	6700 3650 6550 3650
+Connection ~ 6550 3650
+Connection ~ 6700 3650
+$Comp
+L L_Small L100
+U 1 1 5B330F62
+P 6400 3200
+F 0 "L100" H 6450 3250 50  0000 L CNN
+F 1 "2.2uH" H 6430 3160 50  0000 L CNN
+F 2 "Inductors_SMD:L_Vishay_IHLP-2020" H 6400 3200 50  0001 C CNN
+F 3 "" H 6400 3200 50  0001 C CNN
+	1    6400 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C103
+U 1 1 5B330FC3
+P 6150 3000
+F 0 "C103" H 6160 3070 50  0000 L CNN
+F 1 "0.1uF" H 6160 2920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6150 3000 50  0001 C CNN
+F 3 "" H 6150 3000 50  0001 C CNN
+	1    6150 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 3000 6050 3000
+Wire Wire Line
+	6000 3200 6300 3200
+Wire Wire Line
+	6500 3200 6950 3200
+Connection ~ 6700 3200
+Wire Wire Line
+	6250 3000 6250 3200
+Connection ~ 6250 3200
+Wire Wire Line
+	6000 3500 6950 3500
+$Comp
+L R_Small R101
+U 1 1 5B3311CE
+P 6600 3350
+F 0 "R101" H 6630 3370 50  0000 L CNN
+F 1 "100k" H 6630 3310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 6600 3350 50  0001 C CNN
+F 3 "" H 6600 3350 50  0001 C CNN
+	1    6600 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3500 6600 3450
+Wire Wire Line
+	6600 3250 6600 3200
+Connection ~ 6600 3200
+Connection ~ 6600 3500
+Wire Wire Line
+	6050 4000 6050 3850
+Connection ~ 5500 4000
+Wire Wire Line
+	6700 4000 6700 3900
+Connection ~ 6050 4000
+Text HLabel 4550 3000 0    60   Input ~ 0
+Vin
+Text HLabel 6950 3200 2    60   Input ~ 0
+Vout
+Text HLabel 6950 3500 2    60   Input ~ 0
+P_GOOD
+$EndSCHEMATC

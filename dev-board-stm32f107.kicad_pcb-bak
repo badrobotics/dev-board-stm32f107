@@ -470,7 +470,7 @@
   )
 
   (module Housings_SSOP:MSOP-10-1EP_3x3mm_Pitch0.5mm (layer F.Cu) (tedit 57AFAE31) (tstamp 5B3308DF)
-    (at 135.89 87.63)
+    (at 138.518 96.99)
     (descr "MSE Package; 10-Lead Plastic MSOP, Exposed Die Pad (see Linear Technology 05081664_I_MSE.pdf)")
     (tags "SSOP 0.5")
     (path /5B32FDCD/5B330245)
@@ -536,7 +536,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5B330C12)
-    (at 132.842 81.28)
+    (at 133.858 82.296)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B32FDCD/5B3303D0)
@@ -572,7 +572,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5B330C23)
-    (at 129.044 76.962)
+    (at 130.06 77.978)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B32FDCD/5B330498)
@@ -608,7 +608,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5B330C34)
-    (at 128.028 84.074)
+    (at 129.044 85.09)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B32FDCD/5B3304FE)
@@ -644,7 +644,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5B330C45)
-    (at 122.948 75.438)
+    (at 123.964 76.454)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B32FDCD/5B330FC3)
@@ -680,7 +680,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5B330C56)
-    (at 115.328 81.788)
+    (at 116.344 82.804)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B32FDCD/5B330DA5)
@@ -716,7 +716,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5B330C67)
-    (at 118.63 84.582)
+    (at 119.646 85.598)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5B32FDCD/5B330DFE)
@@ -752,7 +752,7 @@
   )
 
   (module Inductors_SMD:L_Vishay_IHLP-2020 (layer F.Cu) (tedit 5990349D) (tstamp 5B330C7C)
-    (at 146.1905 83.566)
+    (at 147.2065 84.582)
     (descr "Inductor, Vishay, IHLP series, 5.1mmx5.1mm")
     (tags "inductor vishay ihlp smd")
     (path /5B32FDCD/5B330F62)
@@ -792,7 +792,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B330C8D)
-    (at 123.202 83.566)
+    (at 124.218 84.582)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5B32FDCD/5B330539)
@@ -828,7 +828,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B330C9E)
-    (at 116.344 76.962)
+    (at 117.36 77.978)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5B32FDCD/5B3311CE)
@@ -864,7 +864,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B330CAF)
-    (at 125.234 79.756)
+    (at 126.25 80.772)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5B32FDCD/5B330CE7)
@@ -900,7 +900,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 5B330CC0)
-    (at 121.158 79.756)
+    (at 122.174 80.772)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5B32FDCD/5B330D2A)
