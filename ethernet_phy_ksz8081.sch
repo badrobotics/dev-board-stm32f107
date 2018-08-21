@@ -1,0 +1,402 @@
+EESchema Schematic File Version 4
+LIBS:dev-board-stm32f107-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "KSZ8081RNA Template with RMII"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5B79DE1B
+P 4450 2900
+F 0 "C?" H 4565 2946 50  0000 L CNN
+F 1 "22u" H 4565 2855 50  0000 L CNN
+F 2 "" H 4488 2750 50  0001 C CNN
+F 3 "~" H 4450 2900 50  0001 C CNN
+	1    4450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B79DE89
+P 4900 2900
+F 0 "C?" H 5015 2946 50  0000 L CNN
+F 1 "0.1u" H 5015 2855 50  0000 L CNN
+F 2 "" H 4938 2750 50  0001 C CNN
+F 3 "~" H 4900 2900 50  0001 C CNN
+	1    4900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B79E51C
+P 4450 3050
+F 0 "#PWR?" H 4450 2800 50  0001 C CNN
+F 1 "GND" H 4455 2877 50  0000 C CNN
+F 2 "" H 4450 3050 50  0001 C CNN
+F 3 "" H 4450 3050 50  0001 C CNN
+	1    4450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B79E535
+P 4900 3050
+F 0 "#PWR?" H 4900 2800 50  0001 C CNN
+F 1 "GND" H 4905 2877 50  0000 C CNN
+F 2 "" H 4900 3050 50  0001 C CNN
+F 3 "" H 4900 3050 50  0001 C CNN
+	1    4900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B79EAF1
+P 6300 2100
+F 0 "C?" H 6415 2146 50  0000 L CNN
+F 1 "22u" H 6415 2055 50  0000 L CNN
+F 2 "" H 6338 1950 50  0001 C CNN
+F 3 "~" H 6300 2100 50  0001 C CNN
+	1    6300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B79EAF7
+P 6750 2100
+F 0 "C?" H 6865 2146 50  0000 L CNN
+F 1 "0.1u" H 6865 2055 50  0000 L CNN
+F 2 "" H 6788 1950 50  0001 C CNN
+F 3 "~" H 6750 2100 50  0001 C CNN
+	1    6750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B79EAFD
+P 6300 2250
+F 0 "#PWR?" H 6300 2000 50  0001 C CNN
+F 1 "GND" H 6305 2077 50  0000 C CNN
+F 2 "" H 6300 2250 50  0001 C CNN
+F 3 "" H 6300 2250 50  0001 C CNN
+	1    6300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B79EB03
+P 6750 2250
+F 0 "#PWR?" H 6750 2000 50  0001 C CNN
+F 1 "GND" H 6755 2077 50  0000 C CNN
+F 2 "" H 6750 2250 50  0001 C CNN
+F 3 "" H 6750 2250 50  0001 C CNN
+	1    6750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B79EBAF
+P 4450 2100
+F 0 "C?" H 4565 2146 50  0000 L CNN
+F 1 "22u" H 4565 2055 50  0000 L CNN
+F 2 "" H 4488 1950 50  0001 C CNN
+F 3 "~" H 4450 2100 50  0001 C CNN
+	1    4450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B79EBB5
+P 4900 2100
+F 0 "C?" H 5015 2146 50  0000 L CNN
+F 1 "0.1u" H 5015 2055 50  0000 L CNN
+F 2 "" H 4938 1950 50  0001 C CNN
+F 3 "~" H 4900 2100 50  0001 C CNN
+	1    4900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B79EBBB
+P 4450 2250
+F 0 "#PWR?" H 4450 2000 50  0001 C CNN
+F 1 "GND" H 4455 2077 50  0000 C CNN
+F 2 "" H 4450 2250 50  0001 C CNN
+F 3 "" H 4450 2250 50  0001 C CNN
+	1    4450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B79EBC1
+P 4900 2250
+F 0 "#PWR?" H 4900 2000 50  0001 C CNN
+F 1 "GND" H 4905 2077 50  0000 C CNN
+F 2 "" H 4900 2250 50  0001 C CNN
+F 3 "" H 4900 2250 50  0001 C CNN
+	1    4900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3500 5750 2650
+Wire Wire Line
+	4450 2650 4450 2750
+Wire Wire Line
+	4900 2750 4900 2650
+Connection ~ 4900 2650
+Wire Wire Line
+	4900 2650 4450 2650
+Wire Wire Line
+	5750 2650 4900 2650
+Text Label 4450 2650 0    50   ~ 0
+1.2V_PHY_INTERNALLY_REGULATED
+$Comp
+L Device:Ferrite_Bead L?
+U 1 1 5B79FEE1
+P 5700 1750
+F 0 "L?" V 5974 1750 50  0000 C CNN
+F 1 "Ferrite_Bead" V 5883 1750 50  0000 C CNN
+F 2 "" V 5630 1750 50  0001 C CNN
+F 3 "~" H 5700 1750 50  0001 C CNN
+	1    5700 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 1950 4450 1750
+Wire Wire Line
+	4450 1750 4900 1750
+Wire Wire Line
+	4900 1950 4900 1750
+Text Label 4450 1750 0    50   ~ 0
+3.3V_QUIET
+Wire Wire Line
+	5950 3500 5950 1750
+Wire Wire Line
+	6300 1950 6300 1750
+Wire Wire Line
+	6300 1750 5950 1750
+Wire Wire Line
+	6750 1950 6750 1750
+Wire Wire Line
+	6750 1750 6300 1750
+Connection ~ 6300 1750
+Wire Wire Line
+	5850 1750 5950 1750
+Connection ~ 5950 1750
+Wire Wire Line
+	5550 1750 5450 1750
+Connection ~ 4900 1750
+Wire Wire Line
+	5850 3500 5850 1950
+Wire Wire Line
+	5850 1950 5450 1950
+Wire Wire Line
+	5450 1950 5450 1750
+Connection ~ 5450 1750
+Wire Wire Line
+	5450 1750 4900 1750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B7A0EBC
+P 6750 1650
+F 0 "#PWR?" H 6750 1500 50  0001 C CNN
+F 1 "+3.3V" H 6765 1823 50  0000 C CNN
+F 2 "" H 6750 1650 50  0001 C CNN
+F 3 "" H 6750 1650 50  0001 C CNN
+	1    6750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1650 6750 1750
+Connection ~ 6750 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5B7A147B
+P 5850 5600
+F 0 "#PWR?" H 5850 5350 50  0001 C CNN
+F 1 "GND" H 5855 5427 50  0000 C CNN
+F 2 "" H 5850 5600 50  0001 C CNN
+F 3 "" H 5850 5600 50  0001 C CNN
+	1    5850 5600
+	1    0    0    -1  
+$EndComp
+Text Notes 4300 1250 0    50   ~ 0
+To the layout guy: put everything up here close to the phy, numb-nuts
+$Comp
+L Device:R R?
+U 1 1 5B7A1FD9
+P 7200 5350
+F 0 "R?" H 7270 5396 50  0000 L CNN
+F 1 "6.49K 1%" H 7270 5305 50  0000 L CNN
+F 2 "" V 7130 5350 50  0001 C CNN
+F 3 "~" H 7200 5350 50  0001 C CNN
+	1    7200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B7A2272
+P 7200 5500
+F 0 "#PWR?" H 7200 5250 50  0001 C CNN
+F 1 "GND" H 7205 5327 50  0000 C CNN
+F 2 "" H 7200 5500 50  0001 C CNN
+F 3 "" H 7200 5500 50  0001 C CNN
+	1    7200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5000 7200 5000
+Wire Wire Line
+	7200 5000 7200 5200
+Text Label 6700 5000 0    50   ~ 0
+PHY_REF_RES
+Text HLabel 1200 4700 0    50   BiDi ~ 0
+PHY_RMII_MDIO
+Text HLabel 1200 4800 0    50   Input ~ 0
+PHY_RMII_MDC
+Wire Wire Line
+	1200 4700 1300 4700
+Wire Wire Line
+	1200 4800 1650 4800
+$Comp
+L Device:R R?
+U 1 1 5B7A99EA
+P 1300 4450
+F 0 "R?" H 1370 4496 50  0000 L CNN
+F 1 "1K" H 1370 4405 50  0000 L CNN
+F 2 "" V 1230 4450 50  0001 C CNN
+F 3 "~" H 1300 4450 50  0001 C CNN
+	1    1300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B7A9A2C
+P 1650 4450
+F 0 "R?" H 1720 4496 50  0000 L CNN
+F 1 "1M DNP" H 1720 4405 50  0000 L CNN
+F 2 "" V 1580 4450 50  0001 C CNN
+F 3 "~" H 1650 4450 50  0001 C CNN
+	1    1650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4600 1300 4700
+Connection ~ 1300 4700
+Wire Wire Line
+	1650 4600 1650 4800
+Connection ~ 1650 4800
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B7AAA93
+P 1300 4300
+F 0 "#PWR?" H 1300 4150 50  0001 C CNN
+F 1 "+3.3V" H 1315 4473 50  0000 C CNN
+F 2 "" H 1300 4300 50  0001 C CNN
+F 3 "" H 1300 4300 50  0001 C CNN
+	1    1300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B7AAAD6
+P 1650 4300
+F 0 "#PWR?" H 1650 4150 50  0001 C CNN
+F 1 "+3.3V" H 1665 4473 50  0000 C CNN
+F 2 "" H 1650 4300 50  0001 C CNN
+F 3 "" H 1650 4300 50  0001 C CNN
+	1    1650 4300
+	1    0    0    -1  
+$EndComp
+Text HLabel 2750 4500 0    50   Output ~ 0
+PHY_RMII_RXER
+Wire Wire Line
+	2750 4500 2850 4500
+$Comp
+L Device:R R?
+U 1 1 5B7B046C
+P 2850 5100
+F 0 "R?" H 2920 5146 50  0000 L CNN
+F 1 "10K" H 2920 5055 50  0000 L CNN
+F 2 "" V 2780 5100 50  0001 C CNN
+F 3 "~" H 2850 5100 50  0001 C CNN
+	1    2850 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4950 2850 4500
+$Comp
+L power:GND #PWR?
+U 1 1 5B7B0E7F
+P 2850 5250
+F 0 "#PWR?" H 2850 5000 50  0001 C CNN
+F 1 "GND" H 2855 5077 50  0000 C CNN
+F 2 "" H 2850 5250 50  0001 C CNN
+F 3 "" H 2850 5250 50  0001 C CNN
+	1    2850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4700 5150 4700
+Wire Wire Line
+	1650 4800 5150 4800
+Connection ~ 2850 4500
+Wire Wire Line
+	2850 4500 5150 4500
+$Comp
+L Connector:Test_Point TP?
+U 1 1 5B7B5C4A
+P 2850 4400
+F 0 "TP?" V 2900 4750 50  0000 C CNN
+F 1 "Test_Point" V 3000 4650 50  0000 C CNN
+F 2 "" H 3050 4400 50  0001 C CNN
+F 3 "~" H 3050 4400 50  0001 C CNN
+	1    2850 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 4400 5150 4400
+Text Label 2850 4400 0    50   ~ 0
+PHY_RMII_REF_CLK_OUT
+$Comp
+L Interface_Ethernet:KSZ8081RND U?
+U 1 1 5B7B87DF
+P 5850 4600
+F 0 "U?" H 5300 3550 50  0000 C CNN
+F 1 "KSZ8081RND" H 5500 3650 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 7250 3600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002199A.pdf" H 3600 4800 50  0001 C CNN
+	1    5850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Test_Point TP?
+U 1 1 5B7B91C2
+P 4450 5300
+F 0 "TP?" V 4450 5700 50  0000 C CNN
+F 1 "Test_Point" V 4550 5600 50  0000 C CNN
+F 2 "" H 4650 5300 50  0001 C CNN
+F 3 "~" H 4650 5300 50  0001 C CNN
+	1    4450 5300
+	0    -1   -1   0   
+$EndComp
+Text Label 4500 5300 0    50   ~ 0
+PHY_OSC_OUT
+Wire Wire Line
+	4450 5300 5150 5300
+Text HLabel 4350 5400 0    50   Input ~ 0
+PHY_REF_CLK_50MHZ
+Wire Wire Line
+	4350 5400 5150 5400
+Text Notes 3950 5650 0    50   ~ 0
+The MCU must provide\na 50MHz reference clock
+$EndSCHEMATC
