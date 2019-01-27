@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name Exodus_Connectors)(type Legacy)(uri E:/repos/exodus/symbol_library/Exodus_Connectors.lib)(options "")(descr ""))
 )
