@@ -651,13 +651,13 @@ Wire Wire Line
 Wire Wire Line
 	6800 2800 7150 2800
 Text Label 7000 2350 0    50   ~ 0
-RXM
+RX_N
 Text Label 7000 2450 0    50   ~ 0
-RXP
+RX_P
 Text Label 7000 2700 0    50   ~ 0
-TXM
+TX_N
 Text Label 7000 2800 0    50   ~ 0
-TXP
+TX_P
 $Comp
 L Exodus_Connectors:ARJ-169 J2
 U 1 1 5BC28A81
