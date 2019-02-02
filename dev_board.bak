@@ -178,39 +178,10 @@ F 3 "" H 2600 2800 50  0001 C CNN
 	1    2600 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5BB8F416
-P 2750 2950
-F 0 "C2" V 2550 2950 50  0000 C CNN
-F 1 "1uF" V 2650 3000 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 2750 2950 50  0001 C CNN
-F 3 "~" H 2750 2950 50  0001 C CNN
-	1    2750 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5BB8F450
-P 2900 3000
-F 0 "#PWR08" H 2900 2750 50  0001 C CNN
-F 1 "GND" H 3000 3000 50  0000 C CNN
-F 2 "" H 2900 3000 50  0001 C CNN
-F 3 "" H 2900 3000 50  0001 C CNN
-	1    2900 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2500 2950 2600 2950
 Wire Wire Line
 	2600 2800 2600 2950
-Connection ~ 2600 2950
-Wire Wire Line
-	2600 2950 2650 2950
-Wire Wire Line
-	2850 2950 2900 2950
-Wire Wire Line
-	2900 2950 2900 3000
 $Sheet
 S 3350 1800 1200 3450
 U 5BAFFD61
@@ -655,9 +626,9 @@ RX_N
 Text Label 7000 2450 0    50   ~ 0
 RX_P
 Text Label 7000 2700 0    50   ~ 0
-TXM
+TX_N
 Text Label 7000 2800 0    50   ~ 0
-TXP
+TX_P
 $Comp
 L Exodus_Connectors:ARJ-169 J2
 U 1 1 5BC28A81

@@ -443,11 +443,11 @@ OTG_FS_BUS
 Wire Wire Line
 	6400 3300 6700 3300
 Text HLabel 6700 3300 2    50   BiDi ~ 0
-OTG_FS_DM
+OTG_FS_N
 Wire Wire Line
 	6400 3400 6700 3400
 Text HLabel 6700 3400 2    50   BiDi ~ 0
-OTG_FS_DP
+OTG_FS_P
 Wire Wire Line
 	6400 3500 6700 3500
 Text HLabel 6700 3500 2    50   BiDi ~ 0
